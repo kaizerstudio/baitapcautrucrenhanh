@@ -8,7 +8,7 @@ int main(){
     cout << "An: "; cin >> a;
     cout << "Binh: "; cin >> b;
     cout << "Cuong: "; cin >> c;
-    if(a<0||b<0||c<0) main();
+    if(a<0||b<0||c<0||a>1||b>1||c>1) main();
     if(a==b&&a==c) cout << "HOA!";
     else{
     if(a!=b&&a!=c) cout << "AN THANG!";
