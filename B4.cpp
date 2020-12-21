@@ -18,7 +18,7 @@ int main(){
     a= dodai(x3-x2, y3-y2);
     b= dodai(x2-x1, y2-y1);
     c= dodai(x3-x1, y3-y1);
-    if(a+b>=c&&b+c>=a&&a+c>=b){
+    if(a+b>c&&b+c>a&&a+c>b){
         a1=x1-x2; a2=x1-x3; b1=y1-y2; b2=y1-y3;
         c1=(pow(x1, 2)+pow(y1, 2)-pow(x2, 2)-pow(y2, 2))/2;
         c2=(pow(x1, 2)+pow(y1, 2)-pow(x3, 2)-pow(y3, 2))/2;
